@@ -1,0 +1,38 @@
+# Python bytecode and cache files
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+venv/
+.env
+*.env
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Streamlit cache and logs
+.streamlit/
+*.db
+
+# Ignore compiled files
+*.so
+*.dll
+*.dylib
+
+# Dependency management
+*.lock
+
+# VS Code settings
+.vscode/
+
+# MacOS files
+.DS_Store
+
+# Logs
+logs/
+*.log
+
+# Ollama and LangChain temporary files
+*.json
+*.yaml
+*.pkl
